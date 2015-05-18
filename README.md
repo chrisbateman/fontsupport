@@ -1,5 +1,7 @@
 # fontsupport
 
+Detect which webfont formats the browser supports.
+
 ## Usage
 
 fontsupport is a UMD module (AMD / CommonJS / global). You'll probably be including it in the `<head>` so you can start loading the relevant fonts right away.
@@ -12,7 +14,7 @@ fontsupport.getSupport(function(result) {
 });
 ```
 ## Caveat
-While desktop browsers parse and update the data URI fonts within a couple milliseconds, some mobile browsers take their sweet time. So after X amount of time has passed, we're in the predicament of not knowing whether the font format isn't supported, or whether the browser just isn't done thinking about it yet. So far, 100ms has seemd to be long enough (at least back to iPhone 5 and on Android emulators). Additional testing in a variety of pages/devices is needed to confirm an appropriate timeout.
+While desktop browsers parse and update the data URI fonts within a couple milliseconds, some mobile browsers take their sweet time. So after X amount of time has passed, we're in the predicament of not knowing whether the font format isn't supported, or whether the browser just isn't done thinking about it yet. So far, 100ms seems to be long enough (at least back to iPhone 5 and on Android emulators). Additional testing in a variety of pages/devices is needed to confirm an appropriate timeout.
 
 It's not a great situation, but I don't think there's really any alternative at the moment.
 
