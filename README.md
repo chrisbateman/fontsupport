@@ -1,6 +1,9 @@
 # fontsupport
 
 ## Usage
+
+fontsupport is a UMD module (AMD / CommonJS / global). You'll probably be including it in the `<head>` so you can start loading the relevant fonts right away.
+
 ```javascript
 fontsupport.getSupport(function(result) {
   // result.woff
