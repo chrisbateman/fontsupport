@@ -1,0 +1,21 @@
+{
+  "name": "fontsupport",
+  "version": "0.1.0",
+  "description": "Detect which font formats the browser supports",
+  "author": "Chris Bateman",
+  "license": "MIT",
+  "main": "dist/fontsupport.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chrisbateman/fontsupport.git"
+  }
+}
